@@ -1,0 +1,31 @@
+POST http://localhost:7071/api/invoke/functionapp/CreateNewOrder
+Content-Type: application/json
+
+{
+    "data": {
+        "value": {
+            "orderId": "1"
+        }
+    }
+}
+###
+
+GET http://localhost:7071/api/RetrieveOrder
+
+
+###
+
+POST http://localhost:7071/api/state/order
+Content-Type: application/json
+
+{
+  "data": {
+        "value": {
+            "orderId": "1"
+        }
+    }    
+}
+
+###
+
+GET http://localhost:7071/api/state/order

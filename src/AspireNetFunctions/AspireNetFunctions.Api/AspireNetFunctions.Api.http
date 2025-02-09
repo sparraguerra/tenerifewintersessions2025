@@ -1,0 +1,6 @@
+@AspireNetFunctions.Api_HostAddress = http://localhost:5031
+
+GET {{AspireNetFunctions.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

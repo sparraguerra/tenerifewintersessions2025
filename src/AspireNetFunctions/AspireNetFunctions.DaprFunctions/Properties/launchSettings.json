@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "AspireNetFunctions.DaprFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7100"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 32663,
+      "useSSL": false
+    }
+  }
+}

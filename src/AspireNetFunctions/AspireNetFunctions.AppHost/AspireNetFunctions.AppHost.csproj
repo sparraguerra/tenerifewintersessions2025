@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsAspireHost>true</IsAspireHost>
+		<UserSecretsId>8073ff4b-7ea9-4d71-a906-154ebd4107e9</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" /> 
+		<PackageReference Include="Aspire.Hosting.Dapr" />
+		<PackageReference Include="Aspire.Hosting.Redis" />
+		<PackageReference Include="Aspire.Hosting.Azure.Functions" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AspireNetFunctions.Api\AspireNetFunctions.Api.csproj" />
+		<ProjectReference Include="..\AspireNetFunctions.Functions\AspireNetFunctions.Functions.csproj" />
+	</ItemGroup>
+
+</Project>

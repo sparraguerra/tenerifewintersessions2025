@@ -1,0 +1,45 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+		<PackageVersion Include="Aspire.Hosting.Azure.Functions" Version="9.0.0-preview.5.24551.3" />
+		<PackageVersion Include="Aspire.Hosting.Dapr" Version="9.0.0" />
+		<PackageVersion Include="Aspire.Hosting.Redis" Version="9.0.0" />
+		<PackageVersion Include="Aspire.Azure.Storage.Blobs" Version="9.0.0" />
+		<PackageVersion Include="Aspire.Azure.Storage.Queues" Version="9.0.0" />
+		<PackageVersion Include="Azure.Monitor.OpenTelemetry.AspNetCore" Version="1.2.0" />
+		<PackageVersion Include="CloudNative.CloudEvents" Version="2.8.0" />
+		<PackageVersion Include="Dapr.AspNetCore" Version="1.14.0" />
+		<PackageVersion Include="Dapr.Actors.AspNetCore" Version="1.14.0" />
+		<PackageVersion Include="Dapr.Client" Version="1.14.0" />
+		<PackageVersion Include="Dapr.Actors" Version="1.14.0" />
+		<PackageVersion Include="Dapr.Extensions.Configuration" Version="1.14.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Timer" Version="4.3.1" />
+		<PackageVersion Include="Microsoft.Azure.WebJobs.Extensions.Dapr" Version="1.0.1" />
+		<PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+		<PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="9.0.0" />
+		<PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.10.0" />
+		<PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.10.0" />
+		<PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.10.1" />
+		<PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.10.0" />
+		<PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.10.0" />
+		<PackageVersion Include="Microsoft.ApplicationInsights.WorkerService" Version="2.22.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker" Version="2.0.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Dapr" Version="1.0.1" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.2.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="2.0.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Storage.Blobs" Version="6.6.0" />
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Storage.Queues" Version="5.5.0" />
+		<!--Use this version of SDK for Aspire.NET Functions-->
+		<PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.0" />
+		<!--Use this version of SDK for Dapr Functions-->
+		<!--<PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.14.1" />-->
+		<PackageVersion Include="SkiaSharp" Version="3.116.1" />
+		<PackageVersion Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="3.116.1" />
+		<PackageVersion Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+	</ItemGroup>
+</Project>
